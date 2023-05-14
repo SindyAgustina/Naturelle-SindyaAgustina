@@ -1,0 +1,911 @@
+body {
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+/* Header */
+.nav-item {
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 8px;
+
+}
+
+.nav-item .nav-link.active {
+    font-weight: 600;
+    color: #22582E !important;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: #22582E !important;
+
+
+}
+/* Tutup Header */
+
+/* Hero Section */
+.hero-section {
+    margin-top: 45px;
+    width: 100%;
+}
+
+.hero-section h2 {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+
+    color: #1F2B1F;
+}
+
+.hero-section p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+.hero-section .btn-cta {
+    margin-top: 30px;
+}
+
+.hero-section .btn {
+    border-radius: 10px;
+    margin-left: 15px;
+    transition: all 0.2s ease;
+
+}
+
+.btn-success:hover {
+    transform: scale(1.1);
+}
+
+.btn-dark:hover {
+    transform: scale(1.1);
+}
+/* Tutup Hero Section */
+
+/* Best seller */
+
+.best-seller {
+    margin-top: 40px;
+    width: 100%;
+    height: 336px;
+
+    background: #A2BFA8;
+}
+
+.best-seller h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    margin-top: 35px;
+
+
+    color: #000000;
+
+
+}
+
+.component-our-best {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    width: 310px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: #000000;
+    padding-bottom: 8px;
+    transition: all 0.2s ease-in-out;
+    left: 110px;
+
+}
+
+.component-our-best:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+
+}
+
+
+.best-img {
+    padding: 0.5rem;
+    border-radius: 8px 8px;
+    
+    width: 400px;
+    height: 450px;
+    left: 110px;
+    top: 843px;
+
+    transition: all 0.3s ease;
+    margin-left: 20ppx;
+    z-index: 1;
+    margin-top: 30px 0px 0px 30px;
+}
+
+.btn-info {
+    padding: 0.5rem;
+    transition: all 0.2s ease;
+    width: 200px;
+    
+}
+.btn-info:hover {
+
+    
+    transform: scale(1.1);
+}
+
+/* Tutup Best seller */
+
+/* Benefit */
+.benefit {
+    margin-top: 450px;
+    width: 100%;
+}
+
+.benefit-img {
+    width: 552px;
+    height: 464px;
+}
+
+.benefit h4 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 48px;
+    margin-top: 20px;
+
+    color: #1F2B1F;
+
+}
+
+.benefit p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 45px;
+    margin-top: 30px;
+
+    color: #000000;
+}
+/* Tutup Benefit */
+
+/* Manfaat */
+.manfaat {
+    margin-top: 120px;
+    width: 100%;
+}
+
+.leaf-img {
+    
+    height: 30px;
+}
+
+.manfaat-text {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #22582E;
+    margin-top: 120px;
+}
+/* Tutup Manfaat */
+
+/* jurnal */
+.jurnal {
+    
+    margin-top: 60px;
+    height: 400px;
+    width: 100%;
+    background-color: #A2BFA8;
+}
+
+.jurnal-text {
+    margin-top: 95px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52px;
+
+    color: #000000;
+
+}
+
+.jurnal-img {
+    
+    height: 120px;
+    margin-top: 80px;
+}
+
+.botol-img {
+    margin-top: 60px;
+    width: 248px;
+    height: 196px;
+}
+
+.botol-text {
+    font-family: 'Poppins';
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 70px;
+
+    color: #000000;
+
+
+}
+
+.btn-jurnal {
+    background: #EBAE13;
+    transition: all 0.3s ease;
+    width: 150px;
+    height: 38px;
+    box-shadow: #22582E;
+}
+
+.btn-jurnal:hover {
+    border-radius: 3px;
+    transform: scale(1.1);
+    width: 150px;
+
+}
+/* Tutup jurnal */
+
+/* Sign Up */
+.sign {
+    background-color: #A2BFA8;
+    width: 100%;
+    height: 80px;
+    margin-top: 100px;
+}
+
+.sign-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: #000000;
+    margin-top: 20px;
+}
+
+.btn.btn-light {
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    width: 200px;
+    background-color: #22582E;
+
+
+    color: #000000;
+
+}
+
+.btn-light {
+    transform: scale(1.1);
+}
+/* Tutup Sign Up */
+
+/* footer */
+.footer {
+    background-color: #F0F1F0; 
+    margin-top: 70px;
+}
+
+.here-text {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 38px;
+    margin-top: 50px;
+
+    color: #000000;
+
+}
+
+.here-text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+
+    color: #000000;
+    margin-top: 30px;
+}
+
+.here-img {
+    margin-top: 30px;
+}
+/* Tutup footer */
+
+/* Categories */
+
+.categories {
+    margin-top: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+
+
+    color: #000000; 
+}
+
+
+
+
+
+/* Tutup Categories */
+
+
+/* Toner */
+.foto-img {
+    margin-top: 70px;
+    width: 227px;
+    height: 310px;
+    
+
+}
+
+.hydrating-img {
+    margin-top: 40px;
+    width: 227px;
+    height: 300px;
+
+}
+
+.toner-img {
+    margin-top: 70px;
+    width: 455px;
+    height: 600px;
+    margin-right: 60px;
+}
+
+.toner-text {
+    margin-top: 70px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 38px;
+    margin-left: 8px;
+    color: #000000; 
+
+}
+
+.btn.btn-primary {
+    margin-top: 100px;
+    margin-left: 200px;
+    border: 0px;
+    margin: 0px;
+    border-left: 5px;
+    float: left;
+    padding-left: 20px;
+}
+
+.btn.btn-primary:hover {
+    border-radius: 3px;
+    
+    
+}
+
+.add-text p {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+.bintang-text{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 20px;
+    
+
+    color: #000000;
+}
+
+    
+
+.bintang-img {
+    margin-top: 10px;
+    margin-left: 0px;
+
+    width: 200px;
+    height: 30px;
+
+
+}
+
+/* Tutup Toner */
+
+/* Top Rated Products */
+.rated-products {
+    background-color: #A2BFA8;
+    height: 400px;
+    margin-top: 70px;
+}
+
+.rated-products h3 {
+    margin-top: 60px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 30px;
+
+
+    color: #000000;
+
+}
+
+.component-top {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    width: 310px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    border-radius: 8px;
+    border: #000000;
+    padding-bottom: 8px;
+    transition: all 0.2s ease-in-out;
+    left: 50px;
+}
+
+.component-top:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.top-img {
+    padding: 0.5rem;
+    border-radius: 8px 8px;
+    
+    width: 300px;
+    height: 400px;
+    
+    top: 843px;
+    padding-left: 30px;
+
+    transition: all 0.3s ease;
+    
+    z-index: 1;
+    margin-top: 30px 0px 0px 30px;
+}
+
+.top-text {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    margin-top: 10px;
+    color: #000000;
+    padding-left: 30px;
+
+}
+
+.top-price {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 17px;
+    padding-left: 30px;
+
+    color: #000000;
+
+}
+/* TutupTop Rated Products */
+
+/* Review */
+.review{
+    margin-top: 430px;
+    
+    height: 400px;
+    width: 100%;
+    background-color: #A2BFA8;
+}
+
+.review-text {
+    margin-top: 95px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52px;
+
+    color: #000000;
+}
+
+.review-img {
+    height: 120px;
+    margin-top: 80px;
+
+}
+
+.journal-img {
+    margin-top: 60px;
+    width: 248px;
+    height: 196px;
+
+}
+
+.journal-text {
+    font-family: 'Poppins';
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 70px;
+
+    color: #000000;
+
+}
+
+.btn-review {
+    background: #EBAE13;
+    transition: all 0.3s ease;
+    width: 200px;
+    height: 38px;
+    box-shadow: #22582E;
+
+}
+
+.btn-review:hover {
+    border-radius: 3px;
+    transform: scale(1.1);
+    width: 200px;
+
+
+}
+
+/* Tutup Review */
+
+
+/* Information */
+.information {
+
+    margin-top: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+
+    color: #000000; 
+}
+
+.info-text {
+    margin-left: 350px;
+    margin-bottom: 30px;
+}
+    
+
+/* Tutup Information */
+
+/* Address */
+.address 
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    background: #f5f5f5;
+}
+
+.input-box input {
+    margin-top: 10px;
+    height: 45px;
+    width: 100%;
+}
+
+.city {
+    margin-top: 20px;
+}
+.verical_center {
+    border-left: 1px  solid;
+    height: 400px;
+    margin-top: 18px;
+    margin-left: 100px;
+}
+
+.city-img {
+    width: 160px;
+    height: 180px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+.city-text {
+    margin-left: 180px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 10px;
+    width: 300px;
+    height: 53px;
+
+    color: #000000;
+}
+
+.city-price {
+    margin-left: 180px;
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 15px;
+
+    color: #000000;
+
+}
+
+.code {
+    margin-top: 100px;
+    margin-left: 0px;
+    
+    
+}
+.btn-secondary {
+    margin-left: 0px;
+    margin-top: 10px;
+    transition: all 0.2s;
+}
+
+.apply-text {
+    margin-left:  0px;
+    margin-top: 30px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 15px;
+    width: 400px;
+    height: 53px;
+
+    color: #000000;
+
+}
+
+.btn-return {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 60px;
+
+
+    color: #22582E;
+
+}
+
+.btn-procceds {
+    background: #F7BF31;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    color: #22582E;
+    margin-top: 65px;
+    margin-left: 200px;
+    width: 280px;
+    height: 45px;
+    transition: all 0.1s;
+}
+.btn-procceds:hover{
+    transform: scale(1.1);
+}
+
+.agus-img {
+    margin-top: 50px;
+}
+.my-text {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+
+
+    color: #000000;
+
+}
+
+.my-text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #A79C9C;
+    margin-right: 50px;
+
+}
+
+.btn-back {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 60px;
+    transition: all 0.2s;
+
+
+    color: #22582E;
+}
+
+.btn-informa {
+    background: #F7BF31;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    color: #22582E;
+    margin-top: 65px;
+    margin-left: 200px;
+    width: 280px;
+    height: 45px;
+    transition: all 0.1s;
+
+}
+
+.btn-informa:hover {
+    transform: scale(1.1);
+}
+/* Tutup Address */
+
+/* Penutup */
+.footer {
+    background-color: #f5f5f5;
+    height: 300px;
+}
+
+.help-text {
+    margin-left: 20px;
+}
+.help-img {
+    margin-left: 10px;
+    width: 20px;
+}
+
+
+/* Tutup penutup */
+
+/* Last Payment */
+.last-img {
+    width: 500px;
+    height: 450px;
+    margin-top: 50px;
+}
+/* Tutup Last Payment */
+
+/* confirm */
+
+.btn-confirm {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 60px;
+
+
+    color: #22582E;
+}
+
+.btn-cancel {
+    background: #F7BF31;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    color: #22582E;
+    margin-top: 65px;
+    margin-left: 200px;
+    width: 280px;
+    height: 45px;
+    transition: all 0.1s;
+
+}
+
+.btn-cancel:hover {
+    transform: scale(1.1);
+}
+/* Tutup confirm */
+
+/* detail */
+
+.detail-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+
+    color: #000000;
+        
+
+}
+
+.detail-img {
+    margin-left: 30px;
+}
+
+.indah-text {
+    margin-top: 30px;
+    margin-left: 130px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+     font-size: 35px;
+    line-height: 20px;
+    width: 600px;
+
+    color: #000000;
+}
+
+.ibu-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 65px;
+    width: 600px;
+    margin-top: 20px;
+
+    color: #000000;
+}
+/*  tutup detail */
+
+/* text */
+
+.finish-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.finish-text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.btn-finish {
+    background: #F7BF31;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 65px;
+    margin-left: 230px;
+    width: 280px;
+    height: 45px;
+    transition: all 0.1s;
+}
+
+.btn-finish:hover {
+    transform: scale(1.1);
+}
+/*  tutup text */
